@@ -1,54 +1,38 @@
 <!DOCTYPE html>
 <html lang="en" >
-
 <head>
-  <meta charset="UTF-8">
-  <title>Quote Machine</title>
-  
-  
-  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
-<link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
-<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css'>
-
-      <link rel="stylesheet" href="css/style.css">
-
-  
+    <meta charset="UTF-8">
+    <title>Quote Machine</title>
+    <link rel="stylesheet prefetch" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css'>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-
-  <p class="tit">Game Quotes</p>
-     <div class="blk">
-   <button id="new" class="btn" onClick = "randomQuote()">New Quote</button>
-   <div class="well quote">
-     <p id="quote"></p>
-   </div>
-   <div class="auth">
-     <p id="auth"></p>
-   </div>
-   <div class="game">
-	 <p id="game"></p>
-	 </div>
-	 <div class="tweet">
-     
-     <a class = "btn twitter-share-button tweetbutton"  href="https://twitter.com/intent/tweet?text=Check%20out%20this%20great%20quote%20generator!
-  https://codepen.io/sky1911/pen/xOXWEp"
-        target="_blank" data-size="large" data-via="sky"> 
- Tweet</a>
-	 </div>
-</div>
-<p class="foot">by <a target="_blank" href="https://about.me/iamsky">akash</a></p>
-  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
-<script src='https://platform.twitter.com/widgets.js'></script>
-<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
-
-  
-
+    <div class="container">
+        <div class="jumbotron marginTop">
+            <h1 class="display-4">Game Quotes</h1>
+            <p id="quote"></p>
+            <hr class="my-4">
+            <p id="auth"></p>
+            <p class="lead">
+            <p id="game"></p>
+            <a class="btn btn-primary btn-lg" onClick = "randomQuote()" href="#" role="button">Next Quote</a>
+            </p>
+        </div>
+    </div>
+    <div class="tweet">
+        <a class = "btn twitter-share-button tweetbutton"  href="https://twitter.com/intent/tweet?text=Check%20out%20this%20great%20quote%20generator!
+            https://codepen.io/sky1911/pen/xOXWEp"
+            target="_blank" data-size="large" data-via="sky"> 
+        Tweet</a>
+    </div>
+    </div>
+    <p class="foot">by <a target="_blank" href="https://about.me/iamsky">akash</a></p>
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+    <script src='https://platform.twitter.com/widgets.js'></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
     <script  src="js/index.js"></script>
-
-
-
-
 </body>
 
 </html>
